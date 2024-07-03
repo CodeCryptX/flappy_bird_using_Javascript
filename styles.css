@@ -1,0 +1,105 @@
+/* Reset default padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for the bird */
+#bird {
+    width: 70px; /* Set the width of the bird */
+    height: 50px; /* Set the height of the bird */
+    background-image: url('flappybird.png'); /* Bird image */
+    background-size: contain; /* Ensure the image scales to fit */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    position: absolute; /* Absolute positioning for precise placement */
+}
+
+/* Styling for the sky background */
+.sky {
+    width: 1450px; /* Width of the sky */
+    height: 550px; /* Height of the sky */
+    background: linear-gradient(to bottom, #70c5ce, #a6e7ff); /* Gradient background */
+    position: absolute; /* Absolute positioning */
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+/* Styling for the top border */
+.border-top {
+    width: 1500px; /* Width of the top border */
+    height: 35px; /* Height of the top border */
+    position: absolute; /* Absolute positioning */
+    background-color: white; /* White background */
+    z-index: 2; /* Higher z-index to appear above other elements */
+}
+
+/* Styling for the left border */
+.border-left {
+    top: 30px; /* Distance from the top */
+    width: 250px; /* Width of the left border */
+    height: 670px; /* Height of the left border */
+    position: absolute; /* Absolute positioning */
+    background-color: white; /* White background */
+    z-index: 2; /* Higher z-index to appear above other elements */
+}
+
+/* Styling for the right border */
+.border-right {
+    width: 230px; /* Width of the right border */
+    height: 680px; /* Height of the right border */
+    position: absolute; /* Absolute positioning */
+    background-color: white; /* White background */
+    z-index: 2; /* Higher z-index to appear above other elements */
+    left: 1300px; /* Distance from the left */
+}
+
+/* Styling for the grass */
+#grass {
+    margin-top: 500px; /* Margin from the top */
+    width: 1350px; /* Width of the grass */
+    height: 50px; /* Height of the grass */
+    background: linear-gradient(to top, #228B22 0%, #32CD32 50%, #7CFC00 100%); /* Gradient background */
+    position: absolute; /* Absolute positioning */
+    z-index: 1; /* Ensure it appears above the sky background */
+}
+
+/* Styling for the ground */
+#ground {
+    margin-top: 550px; /* Margin from the top */
+    margin-bottom: 0px; /* No margin from the bottom */
+    width: 1350px; /* Width of the ground */
+    height: 100px; /* Height of the ground */
+    background: linear-gradient(to top, #8B5A2B 0%, #CD853F 50%, #8B4513 100%); /* Gradient background */
+    position: absolute; /* Absolute positioning */
+    z-index: 1; /* Ensure it appears above the grass */
+}
+
+/* Styling for the pipe */
+.pipe {
+    background-image: url('flappybird-pipe.png'); /* Pipe image */
+    width: 60px; /* Width of the pipe */
+    height: 250px; /* Height of the pipe */
+    position: absolute; /* Absolute positioning */
+}
+
+/* Styling for the bottom pipe */
+.bottomPipe {
+    background-image: url('flappybird-pipe.png'); /* Pipe image */
+    transform: rotate(180deg); /* Rotate the pipe */
+    width: 60px; /* Width of the pipe */
+    height: 250px; /* Height of the pipe */
+    margin-bottom: 700px; /* Margin from the bottom */
+    position: absolute; /* Absolute positioning */
+}
+
+/* Styling for the score display */
+.score {
+    position: absolute; /* Absolute positioning */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 24px; /* Font size */
+    color: #000000; /* Text color */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 3; /* Ensure it appears above other elements */
+}
