@@ -21,7 +21,7 @@ This is a simple implementation of the classic Flappy Bird game using HTML, CSS,
 - The game ends if the bird collides with a pipe or the ground.
 
 ## Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cLYE2qNnk-w?autoplay=1&loop=1&playlist=cLYE2qNnk-w" frameborder="0" allowfullscreen></iframe>
+[![Click to watch the demo video](https://img.youtube.com/vi/cLYE2qNnk-w/0.jpg)](https://www.youtube.com/watch?v=cLYE2qNnk-w)
 
 Click on the image above to watch the demo video.
 ## Technologies Used
