@@ -30,7 +30,7 @@ Click on the image above to watch the demo video.
 - JavaScript
 
 ## Credits
-- [freeCodeCamp](https://www.freecodecamp.org/)).
+- [freeCodeCamp](https://www.freecodecamp.org/).
 - Inspired by the original Flappy Bird game.
 
 ## Author
